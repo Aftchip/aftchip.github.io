@@ -1,0 +1,16 @@
+/* FOOTER */
+.icon-social-facebook {
+  color: rgb(0, 91, 170);
+}
+.icon-social-twitter {
+  color: rgb(52, 203, 255);
+}
+.icon-social-github {
+  color: rgb(36, 41, 46);
+}
+.masthead {
+  background: url('../img/portfolio-header.jpg');
+  background-repeat: no-repeat;
+  background-size: 1500px 1000px
+
+}
