@@ -8,9 +8,53 @@
 .icon-social-github {
   color: rgb(36, 41, 46);
 }
-.masthead {
-  background: url('../img/portfolio-header.jpg');
-  background-repeat: no-repeat;
-  background-size: 1500px 1000px
 
+/* HEADER */
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url('../img/portfolio-header.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.masthead h1, h3 {
+  color: rgb(188, 0, 0);
+  text-shadow: 2px 2px 8px  rgb(255, 255, 255)
+}
+.masthead h1 {
+  font-family: 'Rock Salt', cursive;
+}
+.masthead h3 {
+  font-family: 'Coda', cursive;
+  font-weight: 400;
+}
+.developer {
+  width: 150px;
+  border-radius: 50%;
+}
+.about-me {
+  padding-bottom: 30px;
+}
+.about h1 {
+  font-size: 50px
+}
+.about {
+  font-size: 20px;
+}
+
+/* BUTTONS */
+.btn-primary {
+  background-color: #3a3a39 !important;
+  border-color: #3a3a39 !important;
+  color: #fff !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #ff0000 !important;
+  border-color: #ff0000 !important;
 }
