@@ -47,6 +47,25 @@
 .about {
   font-size: 20px;
 }
+/* ABOUT */
+.orange-background {
+  background-color: #fc581e;
+  padding: 100px;
+  border: solid;
+}
+
+/* CONTACT */
+.center {
+  border: solid;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bg-primary {
+  background-color: #533886 !important;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 
 /* BUTTONS */
 .btn-primary {
