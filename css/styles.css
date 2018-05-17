@@ -7,6 +7,16 @@
 }
 .icon-social-github {
   color: rgb(36, 41, 46);
+  padding: 12px;
+}
+.footer.footer .social-link {
+  background-color: white;
+}
+.footer.footer .social-link:hover {
+  background-color: black;
+}
+.icon-social-github:hover {
+  color: white;
 }
 
 /* HEADER */
